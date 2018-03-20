@@ -1,6 +1,6 @@
 $(() => {
     $.ajax({
-        url: "https://raw.githubusercontent.com/dZlatanovski/Bands-Table/master/bands.json",
+        url: "https://raw.githubusercontent.com/dZlatanovski/Personal-Projects/master/bands.json",
         dataType: "json",
         success: function (data) {
             populateTableAndAddEvents(data);
